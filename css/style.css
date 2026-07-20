@@ -847,7 +847,7 @@ section h2{
 
 .btn-read-now{
 
-    display:inline-flex;
+    display:flex;
 
     align-items:center;
 
@@ -871,7 +871,9 @@ section h2{
 
     transition:transform .3s ease, box-shadow .3s ease, filter .3s ease;
 
-    margin-bottom:60px;
+    margin:0 auto 60px;
+
+    width:fit-content;
 
 }
 
