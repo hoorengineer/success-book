@@ -1446,10 +1446,12 @@ footer h3{
 
 }
 /* ---------- Mobile Layout ---------- */
+/* ---------- Mobile Layout ---------- */
 @media (max-width: 768px) {
 
     .books-grid {
-        grid-template-columns: 1fr;
+        display: grid;
+        grid-template-columns: 1fr !important;
         gap: 30px;
     }
 
@@ -1459,4 +1461,12 @@ footer h3{
         margin: 0 auto;
     }
 
+    .book-card-media {
+        height: auto;
+    }
+
+    .book-card-media img {
+        width: 100%;
+        height: auto;
+    }
 }
